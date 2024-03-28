@@ -4,71 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f8e0bf-abb4-42b8-89a4-33ce9efe9963" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/Mecef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/controller/GuiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/controller/MecefController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/exception/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/ClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/EmcfInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/InfoResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/InvoiceDetailsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/InvoiceRequestDataDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/InvoiceResponseDataDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/InvoiceTypeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/ItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/OperatorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/PaymentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/PaymentTypeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/PendingRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/SecurityElementsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/StatusResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/factory/TaxGroupDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/service/IMeCEF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/service/MeCEF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/http/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/http/HttpRequestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/http/IHttpRequestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/io/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/io/NumberToWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/io/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/logging/ExceptionWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/AlertConfirm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/AlertError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/AlertInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/AlertWarning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/FxmlView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/Popup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/StageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/view/WebView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/n2aconsultings/mecef/fxml/edit-invoice.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/n2aconsultings/mecef/fxml/popup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/n2aconsultings/mecef/fxml/support.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="20f8e0bf-abb4-42b8-89a4-33ce9efe9963" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -77,9 +27,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YOyFFuISWPnJXyPW2LhZUtoXZw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -92,17 +45,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/rochdane/IdeaProjects/WORKSHOP/Project/mecef/src/main/resources",
+    "last_opened_file_path": "/home/rochdane/IdeaProjects/WORKSHOP/Project/client-mecef/mecef/src/main/resources/lib",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef/vendor" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/n2aconsultings/mecef" />
       <recent name="$PROJECT_DIR$/src/main/java/org/n2aconsultings/mecef" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.n2aconsultings.mecef.vendor" />
       <recent name="org.n2aconsultings.mecef.controller" />
     </key>
   </component>

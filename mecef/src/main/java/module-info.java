@@ -4,6 +4,9 @@ module org.n2aconsultings.mecef {
     requires java.net.http;
     requires com.google.gson;
     requires lombok;
+    requires java.sql;
+    requires org.hibernate.orm.core;
+    requires jasperreports;
 
     opens org.n2aconsultings.mecef.controller to javafx.fxml;
     opens org.n2aconsultings.mecef.factory to com.google.gson;
